@@ -10,6 +10,7 @@
 }
 
 body {
+  overflow: hidden;
   margin: 0;
   padding: 0;
   background: linear-gradient(to bottom, rgb(6, 4, 59), rgb(12, 8, 8));
@@ -70,12 +71,4 @@ form button:hover {
   text-align: center;
   background: red;
   font-size: 18px;
-}
-
-.rodape {
-  position: absolute;
-  text-align: center;
-  left: 44%;
-  opacity: 0.2;
-  color: #fff;
 }
