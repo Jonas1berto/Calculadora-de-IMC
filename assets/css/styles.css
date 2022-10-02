@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root {
+  --primary-color: #333;
+  --second-color: rgb(120, 60, 8);
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, rgb(6, 4, 59), rgb(12, 8, 8));
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  height: 100vh;
+}
+
+.container {
+  max-width: 640px;
+  border-radius: 8px;
+  margin: 10px auto ;
+  color: #fff;
+  background: linear-gradient(to bottom, rgb(22, 27, 27), rgb(3, 75, 27));;
+  padding: 15px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+form input {
+  font-size: 24px;
+  height: 30px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  width: 80px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+form button:hover {
+  transition: ease all 1s;
+  background: black
+}
+
+.resultado p {
+  text-align: center;
+  background: var(--primary-color);
+  font-weight: bold;
+}
+
+.resultado h4 {
+  text-align: center;
+  background: red;
+  font-size: 18px;
+}
+
+.rodape {
+  position: absolute;
+  text-align: center;
+  left: 44%;
+  opacity: 0.2;
+  color: #fff;
+}
