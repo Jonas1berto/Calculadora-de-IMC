@@ -1,4 +1,7 @@
 # Calculadora de IMC
+#
+## Link do projeto https://jonas1berto.github.io/Calculadora-de-IMC/
+#
 ### Projeto feito para solidificar meus conhecimentos em lógica de programação, HTML, CSS e JS
 
 ## Aqui é onde eu pego o valor que o usuário digitou no peso e na altura, e faço o calculo do IMC.
