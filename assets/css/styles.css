@@ -13,20 +13,25 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, rgb(6, 4, 59), rgb(12, 8, 8));
+  background: var(--primary-color);
   font-family: 'Open sans', sans-serif;
   font-size: 1.2em;
   line-height: 1.3em;
   height: 100vh;
+  margin-top: 10%;
 }
 
 .container {
+  width: 80%;
   max-width: 640px;
   border-radius: 8px;
   margin: 10px auto ;
   color: #fff;
-  background: linear-gradient(to bottom, rgb(22, 27, 27), rgb(3, 75, 27));;
+  background: linear-gradient(to bottom, rgb(22, 27, 27), rgb(51, 95, 117));;
   padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 form input, form label, form button {
@@ -53,7 +58,7 @@ form button {
   cursor: pointer;
   width: 80px;
   margin: 0 auto;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 form button:hover {
@@ -63,7 +68,7 @@ form button:hover {
 
 .resultado p {
   text-align: center;
-  background: var(--primary-color);
+  color: #000;
   font-weight: bold;
 }
 
